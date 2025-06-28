@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es-LA">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio de Exequiel Abraham - Desarrollador Web</title>
+  </head>
+
+  <body>
+    <nav class="navegacion">
+      <ul>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <header>
+      <section class="img">
+        <img
+          src="/media/img/img-perfil-portafolio.jpeg"
+          alt="Foto de perfil de Exequiel Abraham"
+          class="foto-perfil"
+        />
+        <div class="datos-personales">
+          <h1 class="nombre">Exequiel Abraham</h1>
+          <h2 class="titulo">Desarrollador Web</h2>
+        </div>
+      </section>
+      <section class="presentacion">
+        <h4 class="descripcion">
+          Soy un desarrolador web con experiencia en creación de sitios y
+          aplicaciones web.
+        </h4>
+      </section>
+    </header>
+
+    <section class="habilidades" id="habilidades">
+      <h2 class="titulo-hab">Habilidades</h2>
+      <ul>
+        <li class="habilidad">
+          HTML
+          <span class="nivel"
+            >Avanzado
+            <progress value="90" max="100"></progress>
+          </span>
+        </li>
+        <li class="habilidad">
+          CSS
+          <span class="nivel"
+            >Intermedio
+            <progress value="60" max="100"></progress>
+          </span>
+        </li>
+        <li class="habilidad">
+          JavaScript
+          <span class="nivel"
+            >Básico
+            <progress value="30" max="100"></progress>
+          </span>
+        </li>
+        <li class="habilidad">
+          React
+          <span class="nivel"
+            >Básico
+            <progress value="30" max="100"></progress>
+          </span>
+        </li>
+        <li class="habilidad">
+          Node.js
+          <span class="nivel"
+            >Básico
+            <progress value="30" max="100"></progress>
+          </span>
+        </li>
+        <li class="habilidad">
+          Java
+          <span class="nivel"
+            >Básico
+            <progress value="30" max="100"></progress>
+          </span>
+        </li>
+        <li class="habilidad">
+          Pyhton
+          <span class="nivel"
+            >Básico
+            <progress value="30" max="100"></progress>
+          </span>
+        </li>
+      </ul>
+      <section class="proyectos" id="proyectos">
+        <h2 class="titulo-proyectos">Proyectos destacados</h2>
+
+        <section class="proyecto1">
+          <h3>Proyecto 1</h3>
+          <p>Descripción del proyecto</p>
+          <button>Ver proyecto</button>
+        </section>
+        <section class="proyecto2">
+          <h3>Proyecto 2</h3>
+          <p>Descripción del proyecto</p>
+          <button>Ver proyecto</button>
+        </section>
+        <section class="proyecto3">
+          <h3>Proyecto 3</h3>
+          <p>Descripción del proyecto</p>
+          <button>Ver proyecto</button>
+        </section>
+      </section>
+      <section class="contacto">
+        <h2 class="titulo-contacto" id="contacto">Contacto</h2>
+        <p>
+          Si deseas ponerte en contacto conmigo, por favor completa el siguiente
+          formulario:
+        </p>
+
+        <form
+          action="mailto:exequiel.abraham.13@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required />
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+          <button type="submit">Enviar</button>
+        </form>
+      </section>
+    </section>
+    <footer class="footer">
+  <section class="footer-contenido">
+    <p>&copy; 2023 Exequiel Abraham. Todos los derechos reservados.</p>
+    <a class="email-contacto" href="mailto:exequiel.abraham.13@gmail.com">
+      exequiel.abraham.13@gmail.com
+    </a>
+  </section>
+</footer>
+  </body>
+</html>
